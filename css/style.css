@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 0px;
+
+}
+
+
+
+
+.padding {
+    padding: 70px 0px;
+}
+
+
+.mousehover:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+}
+
+.anchor:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+@media(max-width:526px) {
+    .banner {
+        padding: 200px 0;
+    }
+}
